@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite One" verbose="1">
+
+    <test name = "Action">
+        <groups>
+            <run>
+                <include name="G1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "test.jutestng.action.QuadrateActionTest"/>
+            <class name = "test.jutestng.action.QuadrateValidatorTest"/>
+        </classes>
+    </test>
+
+</suite>
+<!-- для запуска testng.xml правой кнопкой и Run '...testng.xml'-->
